@@ -1,0 +1,91 @@
+euler@Euler_Tosati MINGW64 / (master)
+$ git clone https://github.com/Euler-Tosati/atividade-pratica.git/
+Cloning into 'atividade-pratica'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+euler@Euler_Tosati MINGW64 / (master)
+$ cd atividade-pratica/
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ touch README.md
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git add README.md
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git commit -m "add README"
+[main ca9d7a0] add README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 277 bytes | 277.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Euler-Tosati/atividade-pratica.git/
+   4e46d45..ca9d7a0  main -> main
+branch 'main' set up to track 'origin/main'.
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ touch calculadora.js
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git add calculadora.js
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git commit -m "add calculador java"
+[main c14198b] add calculador java
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 calculadora.js
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 288 bytes | 288.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Euler-Tosati/atividade-pratica.git/
+   ca9d7a0..c14198b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ touch passo-a-passo
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git add passo-a-passo
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git commit -m "add passo-a-passo"
+[main b252ac4] add passo-a-passo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 passo-a-passo
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 246 bytes | 246.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Euler-Tosati/atividade-pratica.git/
+   c14198b..b252ac4  main -> main
+branch 'main' set up to track 'origin/main'.
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$
