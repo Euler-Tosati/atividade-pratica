@@ -1,0 +1,108 @@
+Estudo dirigido 1 - Git e Github
+
+LINK - DOC Google Drive: https://docs.google.com/document/d/1h_zd2gAB41cE7u90JBWNUN-6HrJYNhxgA_ZtwnTjG2A/edit?usp=sharing
+
+O que é Git?
+  Sistema de controle de versionamento distribuido de código que permite que você mantenha 
+  o histórico de mudanças feitas no código e trabalhe em colaboração com outros desenvolvedores.
+
+O que é a staging area?
+  A área entre a pasta de arquivos do Pc (Working directory) e seu repositório onde você 
+  pode preparar as mudanças que serão inclusas no próximo commit
+
+O que é o working directory?
+  Pasta do sistema de arquivos  onde é possível ver e editar um código versionado pelo Git
+
+O que é um commit?
+  É uma forma de registro de mudanças no git, é como se registra o passo a passo das mudanças
+  realizadas no código salvando-as no histórico do repositório
+
+O que é uma branch?
+  Uma ramificação do código main onde podem ser feitas alterações sem interferir no código 
+  principal, deve ser utilizada para correção de bugs e testar novos recursos no código duas 
+  Branches podem ser unificadas no Main através do git merge.
+
+O que é o head no Git?
+  O HEAD e´a confirmação do último commit realizado em uma Branch, ao mudar de Branch ele 
+  atualiza e sempre aponta para o commit ativo no seu repositório.
+
+O que é um merge?
+  É uma operação no Git capaz de unificar duas ou mais branches a sua branch principal
+  o próprio Git é capaz de reconhecer conflitos entres duas ou mais branchs e ele solicita
+  a correção desses erros de forma automática.
+
+Explique os 4 estados de um arquivo no Git:
+  Quando o arquivo está sendo construído e não foi adicionado ao repositório (untracked)
+
+  Arquivos na área de staging que estão prontos para serem commitados (staged)
+
+  Arquivos recém commitados que estão em análise sobre suas mudanças no código (tracked)
+
+  Arquivos que já foram adicionados ao repositório, mas que foram modificados desde o último
+  commit (modified)
+
+Explique o comando git init:
+  Inicia um novo repositório adicionando uma pasta ao seu PC denominada working directory que 
+  abriga o repositório origin local
+
+Explique o comando git add:
+  Comando para adicionar arquivos a área de staging no Git, é necessário adicionar os arquivos
+  indicando o nome de quais serão commitados em seguida
+
+Explique o comando git status:
+  Mostra o estado atual do seu repositório e as mudanças feitas em cada arquivo inclusive 
+  arquivos em staging ou untracked
+
+Explique o comando git commit:
+  È a confirmação de uma mudança definitiva no código registra e gera um histórico das
+  mudanças feita no repositório
+
+Explique o comando git log:
+  Comando usado para exibir o histórico de commits realizados no repositório exibe uma
+  lista com todos os commits do branch atual, e bastante útil para análise e entendimento
+  do andamento do projeto.
+
+Explique o comando git checkout -b:
+  É usado para criar uma nova Branch de desenvolvimento e mudar para ela logo em seguida.
+
+Explique o comando git reset e suas três opções:
+  È usado para desfazer e remover commits e descartar mudanças
+    (soft):  move o ponteiro de branch para um commit anterior
+    (mixed): remove as mudanças do index mas mantém os commits anteriores podendo
+           adicioná-los depois ao index para o commit.
+    (hard):  remove completamente os commits e as mudanças no index sendo irreversível
+           uma vez que o repositório retorna a versão do commit especificado.
+
+Explique o comando git revert:
+  cria um novo commit que desfaz as mudanças de outros commits especificados mantendo o historico do
+  repositório, é necessário especifca o código do commit a ser desfeito
+
+Explique o comando git clone:
+  Copia um repositório Git para uma maquina ou outro local, é útil quando se quer ter uma cópia
+  do projeto para trabalho remoto.
+
+Explique o comando git push:
+  Utilizado para enviar alterações para um outro repositório como atualizar o origin main 
+  com novos dados gerados em uma maquina local.
+
+
+Explique o comando git pull:
+  puxa os dados de um repositório remoto e atualiza os dados de um repositório local.
+
+Como ignorar o versionamento de arquivos no Git?
+  com o comando git ignore <nome_arquivo> ignora intecionalmente um arquivo untracked.
+
+No terralab utilizamos as branches master ou main, develop e staging. 
+Explique o objetivo de cada uma.
+  (Main): Branch de desenvolvimento principal salvas os commits e cria novas versões do código.
+  (Develop): Uma ramificação especifica para o desenvolvimento e resolução de problemas,
+  como uma zona de teste onde os reultados são unificado com o git merge a branch main.
+  (Staging): Area onde os arquivos são construídos e se encontram prontos para o commit onde
+  onde preparam novas atualizações e novos conteúdos para lançamento.
+  
+  
+  #  resposta da atividade prática:
+  
+  3) node calculador.js
+  4) git commit -m "mudança a ser commitada"
+  10) A função recebe dois parâmetros e um operador e retorna o calculo passado pelo usuário.
