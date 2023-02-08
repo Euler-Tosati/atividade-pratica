@@ -89,3 +89,158 @@ branch 'main' set up to track 'origin/main'.
 
 euler@Euler_Tosati MINGW64 /atividade-pratica (main)
 $
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git add calculadora.js
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git commit -m "refactor: calculator abstraction"
+[main b4774cd] refactor: calculator abstraction
+ 1 file changed, 9 insertions(+)
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 431 bytes | 431.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Euler-Tosati/atividade-pratica.git
+   b1c28fa..b4774cd  main -> main
+branch 'main' set up to track 'origin/main'.
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git log
+commit b4774cd74df6d3d320d8f30ae31d6b7c7bf4f46e (HEAD -> main, origin/main, origin/HEAD)
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 05:29:34 2023 -0300
+
+    refactor: calculator abstraction
+
+commit b1c28fa1e4266b1a5fbcde4696f3384caeb09718
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 05:11:23 2023 -0300
+
+    Update calculadora.js
+
+commit 9deaeed6b78f98f9718397390a654e76a26f1a0b
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:59:52 2023 -0300
+
+    arg não estava definida, nome mudado para argsna linha 40
+
+commit 8665dd37c30ed51117cf8efb0e7df49ead309fa7
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 04:15:35 2023 -0300
+
+    Update passo-a-passo
+
+    Passo-a-passo da Atv pratica
+
+commit b252ac4f2fcc5ee52de1c532f27fc1aeddfb68d0
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:14:10 2023 -0300
+
+    add passo-a-passo
+
+commit c14198bce7050e9be909aaf09c38d65fede1a0ee
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:11:37 2023 -0300
+
+    add calculador java
+
+commit ca9d7a09d9d1d3b2d151508ad3717506c3ea43ca
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:04:30 2023 -0300
+
+    add README
+
+commit 4e46d45e77eb29ab0bed2e5c74b0dc192a452108
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 03:56:29 2023 -0300
+
+    Create file1
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git revert b4774cd74df6d3d320d8f30ae31d6b7c7bf4f46e
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git log
+commit e984b39802d16685ebdf19e8047aa0d590b72169 (HEAD -> main)
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 05:37:08 2023 -0300
+
+    Revert "refactor: calculator abstraction"
+
+    This reverts commit b4774cd74df6d3d320d8f30ae31d6b7c7bf4f46e.
+
+commit b4774cd74df6d3d320d8f30ae31d6b7c7bf4f46e (origin/main, origin/HEAD)
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 05:29:34 2023 -0300
+
+    refactor: calculator abstraction
+
+commit b1c28fa1e4266b1a5fbcde4696f3384caeb09718
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 05:11:23 2023 -0300
+
+    Update calculadora.js
+
+commit 9deaeed6b78f98f9718397390a654e76a26f1a0b
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:59:52 2023 -0300
+
+    arg não estava definida, nome mudado para argsna linha 40
+
+commit 8665dd37c30ed51117cf8efb0e7df49ead309fa7
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 04:15:35 2023 -0300
+
+    Update passo-a-passo
+
+    Passo-a-passo da Atv pratica
+
+commit b252ac4f2fcc5ee52de1c532f27fc1aeddfb68d0
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:14:10 2023 -0300
+
+    add passo-a-passo
+
+commit c14198bce7050e9be909aaf09c38d65fede1a0ee
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:11:37 2023 -0300
+
+    add calculador java
+
+commit ca9d7a09d9d1d3b2d151508ad3717506c3ea43ca
+Author: Euler-Tosati <eulertosati777@gmail.com>
+Date:   Wed Feb 8 04:04:30 2023 -0300
+
+    add README
+
+commit 4e46d45e77eb29ab0bed2e5c74b0dc192a452108
+Author: Euler Tosati <124369968+Euler-Tosati@users.noreply.github.com>
+Date:   Wed Feb 8 03:56:29 2023 -0300
+
+    Create file1
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git add calculadora.js
+
+euler@Euler_Tosati MINGW64 /atividade-pratica (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Euler-Tosati/atividade-pratica.git
+   b4774cd..e984b39  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
