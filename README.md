@@ -1,4 +1,11 @@
-![dev](https://user-images.githubusercontent.com/124369968/217485120-1fdcab33-58ac-4458-b55c-06244a5a0253.gif)
+# Tentando deixar o README bonitão:
+
+<div align="center">
+  <a href="https://github.com/caiulucas">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Euler-Tosati&show_icons=true&theme=omni&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Euler-Tosati&layout=compact&langs_count=7&theme=omni"/>
+</div>
+
 
 # Atividade prática
 
@@ -13,7 +20,7 @@
 
 # Link do repositório: [Clique aqui](https://github.com/Euler-Tosati/atividade-pratica.git) 
 
-**Conceitos básicos do Gitflow**
+**Aprendendo conceitos básicos do Gitflow**
 
 - [x] _Staging área_
 
